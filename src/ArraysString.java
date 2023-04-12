@@ -11,7 +11,7 @@ public class ArraysString {
         String name = scan.nextLine();
 
         for (int i = 0; i < familySoltysiak.length; i++) {
-            if (familySoltysiak[i].equals(name)) {
+            if (familySoltysiak[i].equals(name)) { //UWAGA!! do porównania Stringa używa się metody equals!!
                 seek = true;
                 break;
             }
